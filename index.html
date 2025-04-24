@@ -1,1 +1,396 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Game<span>Dev</span></div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Name</h1>
+                <p>Game Developer & Designer creating immersive digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-light">View My Work</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/api/placeholder/400/400" alt="Game Developer Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Game Developer with a passion for creating engaging experiences</h3>
+                    <p>Hello! I'm a dedicated game developer with expertise in both game design and programming. With over X years of experience in the industry, I've worked on various projects ranging from mobile games to PC titles.</p>
+                    <p>My approach combines technical knowledge with creative vision, allowing me to bring unique gaming experiences to life. I'm particularly passionate about [specific game genre/technology/aspect of game development].</p>
+                    <p>When I'm not coding or designing, you can find me playing the latest games, participating in game jams, or exploring new technologies to enhance my development skills.</p>
+                    <a href="#" class="btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="unity">Unity</button>
+                <button class="filter-btn" data-filter="unreal">Unreal</button>
+                <button class="filter-btn" data-filter="godot">Godot</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="unity">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Adventure Quest</h3>
+                        <p>A 3D adventure game built with Unity, featuring procedurally generated worlds and real-time combat system.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="unreal">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Space Shooter</h3>
+                        <p>A mobile arcade game built with Unreal Engine, featuring dynamic difficulty scaling and particle effects.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="godot">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Puzzle Platformer</h3>
+                        <p>A 2D puzzle platformer created with Godot, featuring unique physics-based mechanics and hand-drawn art.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="unity">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 4">
+                    </div>
+                    <div class="project-content">
+                        <h3>VR Experience</h3>
+                        <p>An immersive VR experience built with Unity, showcasing interactive environments and natural interaction.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Game Engines -->
+                <div class="skill-category">
+                    <h3>Game Engines</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Unity</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Unreal Engine</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Godot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">GameMaker Studio</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Programming -->
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">GDScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Game Design -->
+                <div class="skill-category">
+                    <h3>Game Design</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Level Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Game Mechanics</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">User Experience</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Balancing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3>Tools & Software</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Blender</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Adobe Photoshop</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">FMOD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <p>"Working with [Your Name] was a fantastic experience. Their technical knowledge and creative approach to game development resulted in a product that exceeded our expectations."</p>
+                            <div class="testimonial-author">
+                                <img src="/api/placeholder/60/60" alt="Client 1">
+                                <div class="author-info">
+                                    <h4>John Doe</h4>
+                                    <p>CEO, Game Studio Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"[Your Name] delivered an amazing game that perfectly captured our vision. Their attention to detail and technical expertise made them a valuable partner throughout the project."</p>
+                            <div class="testimonial-author">
+                                <img src="/api/placeholder/60/60" alt="Client 2">
+                                <div class="author-info">
+                                    <h4>Jane Smith</h4>
+                                    <p>Creative Director, Interactive Media</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"The gameplay mechanics and visual designs that [Your Name] created were exceptionally innovative. Their understanding of player psychology and technical implementation was impressive."</p>
+                            <div class="testimonial-author">
+                                <img src="/api/placeholder/60/60" alt="Client 3">
+                                <div class="author-info">
+                                    <h4>Mike Johnson</h4>
+                                    <p>Lead Designer, GameWorld</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-btn next" id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Create Something Amazing Together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>your.email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Itch.io"><i class="fab fa-itch-io"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+            <a href="#hero" class="back-to-top" id="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
