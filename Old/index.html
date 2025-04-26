@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">SweaterGhost<span>Games</span></div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Zo&euml Sharp</h1>
+                <p>Game Developer & Designer creating immersive digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-light">View My Work</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/SweaterGhost.png" alt="Game Developer Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Game Developer with a passion for creating engaging experiences</h3>
+                    <p>I am a freshly-graduated game developer with a love for all things immersive, impactful, and just a little bit weird. While my main focus of study was game programming, I also enjoy creating and implementing art assets for those games.</p>
+                    <p>I am a dedicated and driven developer who is always eager to learn, collaborate, and bring meaningful ideas to life.</p>
+                    <a href="Resume_Zoe_Sharp_2025.pdf" class="btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="unity">Unity</button>
+                <button class="filter-btn" data-filter="unreal">Unreal</button>
+                <button class="filter-btn" data-filter="godot">Godot</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="unity">
+                    <div class="project-img">
+                        <img src="images/PantryRaidLogoWithPoses.png" alt="Game Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Pantry Raid</h3>
+                        <p>A 3D rogue-lite dungeon crawler built with Unity, featuring a plethora of unique enemies and abilities to unlock.</p>
+                        <div class="project-links">
+                            <a href="https://caffiendgames.com/" class="project-link"><i class="fa-solid fa-mug-saucer"></i> Caffiend</a>
+                            <a href="https://store.steampowered.com/app/3582510/Pantry_Raid/" class="project-link"><i class="fa-brands fa-steam"></i> Steam</a>
+                            <a href="https://caffiendgames.itch.io/pantry-raid" class="project-link"><i class="fab fa-itch-io"></i> itch.io</a>
+                            <a href="https://github.com/AlgonquinCollegeCapstone/TeamF2024.git" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <!--<div class="project-card" data-category="unreal">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3> name</h3>
+                        <p>description</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Project 3 -->
+                <!--<div class="project-card" data-category="godot">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Puzzle Platformer</h3>
+                        <p>A 2D puzzle platformer created with Godot, featuring unique physics-based mechanics and hand-drawn art.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Project 4 -->
+                <!--<div class="project-card" data-category="unity">
+                    <div class="project-img">
+                        <img src="/api/placeholder/400/250" alt="Game Project 4">
+                    </div>
+                    <div class="project-content">
+                        <h3>VR Experience</h3>
+                        <p>An immersive VR experience built with Unity, showcasing interactive environments and natural interaction.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-play-circle"></i> View Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <!-- Game Engines -->
+                <div class="skill-category">
+                    <h3>Game Engines</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Unity</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Unreal Engine</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Godot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 5%"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Programming -->
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 10%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 5%"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Game Design -->
+                <div class="skill-category">
+                    <h3>Game Design</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Level Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 25%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Game Mechanics</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">User Experience</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3>Tools & Software</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">3Ds Max</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Adobe Photoshop and Illustrator</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!--<section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <p>"Working with [Your Name] was a fantastic experience. Their technical knowledge and creative approach to game development resulted in a product that exceeded our expectations."</p>
+                            <div class="testimonial-author">
+                                <img src="/api/placeholder/60/60" alt="Client 1">
+                                <div class="author-info">
+                                    <h4>John Doe</h4>
+                                    <p>CEO, Game Studio Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"[Your Name] delivered an amazing game that perfectly captured our vision. Their attention to detail and technical expertise made them a valuable partner throughout the project."</p>
+                            <div class="testimonial-author">
+                                <img src="/api/placeholder/60/60" alt="Client 2">
+                                <div class="author-info">
+                                    <h4>Jane Smith</h4>
+                                    <p>Creative Director, Interactive Media</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"The gameplay mechanics and visual designs that [Your Name] created were exceptionally innovative. Their understanding of player psychology and technical implementation was impressive."</p>
+                            <div class="testimonial-author">
+                                <img src="/api/placeholder/60/60" alt="Client 3">
+                                <div class="author-info">
+                                    <h4>Mike Johnson</h4>
+                                    <p>Lead Designer, GameWorld</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots"></div>
+                    <button class="testimonial-btn next" id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Create Something Amazing Together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>zoegsharp@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ottawa, ON, Canada</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/zoe-gb-sharp" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Zobotical" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://caffiendgames.com/" title="Pantry Raid"><i class="fa-solid fa-mug-saucer"></i></a>
+                        <a href="#" title="Itch.io"><i class="fab fa-itch-io"></i></a>
+                    </div>
+                </div>
+
+                <!--<div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit">Send Message</button>
+                        </form>
+                        <div id="formMessage" class="form-message"></div>
+                    </div>
+                </div>-->
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Zoe Sharp. All rights reserved.</p>
+            <a href="#hero" class="back-to-top" id="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
