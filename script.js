@@ -207,7 +207,7 @@ window.addEventListener('scroll', () => {
 
 // Typing effect for hero subtitle
 function typeEffect() {
-    const text = "Creating immersive gaming experiences with a touch of the supernatural";
+    const text = "Creating immersive gaming experiences with a touch of the weird";
     const heroSubtitle = document.querySelector('.hero-content p');
 
     if (heroSubtitle) {
